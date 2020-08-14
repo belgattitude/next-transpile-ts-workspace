@@ -7,7 +7,7 @@
   "main": "dist/bar.js",
   "module": "dist/bar.module.js",
   "scripts": {
-    "build": "microbundle",
+    "build": "microbundle --jsx React.createElement",
     "dev": "microbundle watch"
   },
   "devDependencies": {
