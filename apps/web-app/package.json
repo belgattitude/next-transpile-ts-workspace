@@ -1,6 +1,7 @@
 {
   "name": "web-app",
   "version": "1.0.0",
+  "private": true,
   "scripts": {
     "dev": "next",
     "build": "next build",
@@ -12,8 +13,10 @@
     "typescript": "^3.9.7"
   },
   "dependencies": {
+    "@optional-package-scope/bar": "*",
+    "@optional-package-scope/foo": "*",
     "next": "^9.5.2",
-    "next-transpile-modules": "^4.0.2",
+    "next-transpile-modules": "^4.1.0",
     "react": "^16.8.3",
     "react-dom": "^16.8.3"
   },

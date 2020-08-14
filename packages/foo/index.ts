@@ -1,4 +1,1 @@
-const foo = 'foo';
-
-export default foo;
-
+export * from './src/index'

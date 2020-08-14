@@ -51,7 +51,7 @@ jobs:
           sh ./scripts/check-git-pristine-yarn-lock.sh
 
       - name: Build webapp
-        working-directory: packages/web-app
+        working-directory: apps/web-app
         run: |
           yarn build
         env:
