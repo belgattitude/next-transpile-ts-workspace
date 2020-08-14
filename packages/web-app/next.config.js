@@ -2,4 +2,4 @@
 // https://www.npmjs.com/package/next-transpile-modules
 const withTM = require('next-transpile-modules')(['bar'])
 
-module.exports = withTM()
+module.exports = withTM({})

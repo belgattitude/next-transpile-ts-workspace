@@ -15,7 +15,8 @@
     "next": "9.5.2",
     "next-transpile-modules": "4.1.0",
     "react": "^16.8.3",
-    "react-dom": "^16.8.3"
+    "react-dom": "^16.8.3",
+    "foo": "file:../foo"
   },
   "license": "ISC"
 }
