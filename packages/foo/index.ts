@@ -1,4 +1,4 @@
-const foo: string = 'foo';
-
-export default foo;
+export const sayHello = (name: string) => {
+    return `Hello ${name} !`
+}
 
