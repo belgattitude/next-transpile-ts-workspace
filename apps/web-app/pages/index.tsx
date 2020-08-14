@@ -4,7 +4,7 @@ import {AsyncBar, Bar} from '@optional-package-scope/bar'
 export default function Home() {
   return (
     <div>
-      Imported and transpiled modules from another workspaces:
+      Imported and transpiled modules from other workspaces:
       <ul>
           <li>{`Foo says: ${sayHello('World')} from @optional-package-scope/foo`}</li>
           <li><Bar message={'Bar react component from @optional-package-scope/bar'}/></li>
