@@ -3,10 +3,19 @@
   "version": "1.0.0",
   "license": "ISC",
   "private": true,
+  "source": "src/index.ts",
+  "main": "dist/bar.js",
+  "module": "dist/bar.module.js",
+  "scripts": {
+    "build": "microbundle",
+    "dev": "microbundle watch"
+  },
   "devDependencies": {
-    "typescript": "^3.9.7"
+    "typescript": "^3.9.7",
+    "microbundle": "^0.12.3"
   },
   "peerDependencies": {
-    "react": "^16.0.0"
+    "react": "^16.2.1",
+    "react-dom": "^16.2.1"
   }
 }
