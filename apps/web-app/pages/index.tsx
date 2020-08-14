@@ -1,5 +1,5 @@
-import foo from '@package/foo'
-import Bar from '@package/bar'
+import foo from '@optional-package-scope/foo'
+import Bar from '@optional-package-scope/bar'
 
 export default function Home() {
   return (
