@@ -1,4 +1,4 @@
-const foo = 'foo';
+const foo: string = 'foo';
 
 export default foo;
 
