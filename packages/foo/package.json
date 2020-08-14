@@ -2,7 +2,7 @@
   "name": "foo",
   "version": "1.0.0",
   "license": "ISC",
-  "dependencies": {
+  "devDependencies": {
     "typescript": "^3.9.7"
   }
 }
