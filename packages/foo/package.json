@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "license": "ISC",
   "private": true,
+  "scripts": {
+    "typecheck": "tsc -p ./ --noEmit"
+  },
   "devDependencies": {
     "typescript": "^3.9.7"
   }
