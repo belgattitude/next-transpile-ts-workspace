@@ -8,7 +8,10 @@
   "module": "dist/bar.module.js",
   "scripts": {
     "build": "microbundle --jsx React.createElement",
-    "dev": "microbundle watch"
+    "dev": "microbundle watch",
+    "typecheck": "tsc -p ./ --noEmit",
+    "deps:check": "npx npm-check-updates --dep prod,dev,optional",
+    "deps:update": "npx npm-check-updates --dep prod,dev,optional -u"
   },
   "devDependencies": {
     "typescript": "^3.9.7",
