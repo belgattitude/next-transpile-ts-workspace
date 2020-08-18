@@ -2,6 +2,8 @@
 
 Experimenting with a monorepo setup for nextjs / typescript.
 
+See: https://next-transpile-ts-workspace.vercel.app/
+
 ### Approach
 
 - [x] Setup with [yarn workspace](./package.json).
