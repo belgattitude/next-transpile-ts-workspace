@@ -13,6 +13,7 @@ Experimenting with a monorepo setup for nextjs / typescript.
 - Declare your workspaces paths in [package.json](./package.json)
 - Create a base [tsconfig.json](./tsconfig.json) at the root.
   Set `baseUrl` to '.' and define your dependencies in `paths`.
+- Configure webpack in [next.config.js](./apps/web-app/next.config.js)
 
 ### Structure
 
@@ -42,6 +43,7 @@ Experimenting with a monorepo setup for nextjs / typescript.
 
 #### Drawbacks
 
+- 
 - Keep all deps at the same version. You will run into problem if one package depends a v1 version and another in a v2.
   (There's a script to check that `yarn deps:check`)
 - You might have to create multiple tsconfig.json (i.e: tsconfig.dev.json, tsconfig.build.json...) if you 
@@ -51,6 +53,9 @@ Experimenting with a monorepo setup for nextjs / typescript.
 
 - Fast refresh works out of the box, see https://github.com/martpie/next-transpile-modules/issues/9 and `resolveSymlinks` that
   can help. 
-- ts-jest should honour the config
+- ts-jest should honour the config.
 
+#### Interesting next steps:
 
+- RFC: https://github.com/vercel/next.js/discussions/15327
+- Vercel monorepo support: https://github.com/vercel/vercel/issues/3547#issuecomment-673687255
