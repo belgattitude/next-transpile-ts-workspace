@@ -47,6 +47,7 @@ Experimenting with a monorepo setup for nextjs / typescript.
   (There's a script to check that `yarn deps:check`)
 - You might have to create multiple tsconfig.json (i.e: tsconfig.dev.json, tsconfig.build.json...) if you 
   want to use a distributed package rather than transpiling. 
+- Currently only one app can be build on vercel (waiting for monorepo support)
 
 #### Advantages over next-transpile-modules
 
