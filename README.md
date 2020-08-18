@@ -41,7 +41,7 @@ Experimenting with a monorepo setup for nextjs / typescript.
 
 ### Notes
 
-#### Drawbacks
+### Drawbacks
 
 - Keep all deps at the same version. You will run into problem if one package depends a v1 version and another in a v2.
   (There's a script to check that `yarn deps:check`)
@@ -53,6 +53,10 @@ Experimenting with a monorepo setup for nextjs / typescript.
 - Fast refresh works out of the box, see https://github.com/martpie/next-transpile-modules/issues/9 and `resolveSymlinks` that
   can help. 
 - ts-jest should honour the config.
+
+#### Advantages of next-transpile-modules
+
+- It handles css/scss as well
 
 #### Interesting next steps:
 
