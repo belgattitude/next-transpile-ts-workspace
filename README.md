@@ -68,6 +68,6 @@ See: https://next-transpile-ts-workspace.vercel.app/
 
 #### Caution
 
-- Monorepo are not monolith, this approach is for sanity while developing (not rebuild). 
+- Monorepos are not monoliths, this approach is for sanity while developing (not rebuild). 
   For production packages should be publishable and apps deployable independently (lerna, nx...).
   
