@@ -65,3 +65,9 @@ See: https://next-transpile-ts-workspace.vercel.app/
 
 - RFC: https://github.com/vercel/next.js/discussions/15327
 - Vercel monorepo support: https://github.com/vercel/vercel/issues/3547#issuecomment-673687255
+
+#### Caution
+
+- Monorepo are not monolith, this approach is for sanity while developing (not rebuild). 
+  For production packages should be publishable and apps deployable independently (lerna, nx...).
+  
