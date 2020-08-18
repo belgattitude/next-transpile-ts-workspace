@@ -43,7 +43,6 @@ Experimenting with a monorepo setup for nextjs / typescript.
 
 #### Drawbacks
 
-- 
 - Keep all deps at the same version. You will run into problem if one package depends a v1 version and another in a v2.
   (There's a script to check that `yarn deps:check`)
 - You might have to create multiple tsconfig.json (i.e: tsconfig.dev.json, tsconfig.build.json...) if you 
