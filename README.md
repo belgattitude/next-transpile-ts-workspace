@@ -1,3 +1,6 @@
+**CAUTION** this repo has been moved to [vercel-monorepo-test](https://github.com/belgattitude/vercel-monorepo-test)
+
+
 # NextJS monorepo tests
 
 Experimenting with a monorepo setup for nextjs / typescript.
